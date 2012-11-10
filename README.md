@@ -1,13 +1,13 @@
-Anymote-for-Tasker
+GTV-for-Tasker
 ==================
 
-<p>Anymote-for-Tasker implements a plugin for the popular <a href="https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm">Tasker</a> app.
-Anymote-for-Tasker allows you to create tasks to control a <a href="https://developers.google.com/tv/">Google TV</a> device.
-Anymote-for-Tasker allows you to send key codes to Google TV devices like pressing the buttons on a physical remote control.</p>
+<p>GTV-for-Tasker implements a plugin for the popular <a href="https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm">Tasker</a> app.
+GTV-for-Tasker allows you to create tasks to control a <a href="https://developers.google.com/tv/">Google TV</a> device.
+GTV-for-Tasker allows you to send key codes to Google TV devices like pressing the buttons on a physical remote control.</p>
 
-<p>The Anymote-for-Tasker plugin is available in the <a href="https://play.google.com/store/apps/details?id=com.entertailion.android.tasker">Google Play Store</a> as a free app.</p>
+<p>The GTV-for-Tasker plugin is available in the <a href="https://play.google.com/store/apps/details?id=com.entertailion.android.tasker">Google Play Store</a> as a free app.</p>
 
-<p>The Anymote-for-Tasker can be used with the following apps:
+<p>The GTV-for-Tasker can be used with the following apps:
 <ul>
 <li><a href="https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm">Tasker</a></li>
 <li><a href="https://play.google.com/store/apps/details?id=com.twofortyfouram.locale">Locale</a></li>
@@ -59,12 +59,12 @@ It will require some experimentation to determine what the exact values need to 
 
 <p>Developers:
 <ul>
-<li>The Anymote-for-Tasker code is based on the <a href="http://www.twofortyfouram.com/developer.html">Locale Toast Setting</a> plugin source code.</li>
-<li>The Anymote-for-Tasker project includes the jar file for the <a href="https://github.com/entertailion/Anymote-for-Java">Anymote-for-Java</a> library in its lib directory. 
+<li>The GTV-for-Tasker code is based on the <a href="http://www.twofortyfouram.com/developer.html">Locale Toast Setting</a> plugin source code.</li>
+<li>The GTV-for-Tasker project includes the jar file for the <a href="https://github.com/entertailion/Anymote-for-Java">Anymote-for-Java</a> library in its lib directory. 
 Developers should check out that project and export a jar file for the latest version of the code. 
 When you export the Anymote-for-Java project as a jar file, do not include its lib directory since this project already includes those jar files.</li>
 <li>The code also relies on an Android library project that is part of the <a href="http://www.twofortyfouram.com/developer/toast.zip">Locale Toast Settings plugin</a> developed by <a href="http://www.twofortyfouram.com/developer.html">two forty four a.m.</a>.
-Extract the zip file and import the 'locale-api' project into Eclipse which will be referenced by the Anymote-for-Tasker project.</li>
+Extract the zip file and import the 'locale-api' project into Eclipse which will be referenced by the GTV-for-Tasker project.</li>
 </ul>
 </p>
 
