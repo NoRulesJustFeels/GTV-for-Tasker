@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+** Copyright 2012 two forty four a.m. LLC <http://www.twofortyfouram.com>
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at <http://www.apache.org/licenses/LICENSE-2.0>
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+-->
+<resources>
+
+    <!-- App name -->
+    <string name="app_name">GTV Tasker Plugin</string>
+
+    <!-- Name of the plug-in that appears in Locale -->
+    <string name="plugin_name">GTV Tasker</string>
+
+    <!-- UI names -->
+    <string name="field_device">Google TV Device</string>
+    <string name="field_keycode">Keycode</string>
+    <string name="field_device_select">Select Google TV Device&#8230;</string>
+
+    <!-- Manifest labels -->
+    <string name="finder_label">Connect to Google TV</string>
+
+    <!-- Device Finder - more devices -->
+    <string name="finder_connect">Connect</string>
+    <string name="finder_cancel">Cancel</string>
+    <string name="finder_manual">Add manually</string>
+    <string name="finder_configure">Configure</string>
+    <string name="finder_wifi_not_available">WiFi network not available</string>
+
+    <!-- Pairing -->
+    <string name="pairing_label">Pairing required</string>
+    <string name="pairing_hint">Enter PIN</string>
+    <string name="pairing_ok">Pair</string>
+    <string name="pairing_cancel">Cancel</string>
+
+    <!-- Anymote codes -->
+    <string name="KEYCODE_SOFT_LEFT">KEYCODE SOFT LEFT</string>
+    <string name="KEYCODE_SOFT_RIGHT">KEYCODE SOFT RIGHT</string>
+    <string name="KEYCODE_HOME">KEYCODE HOME</string>
+    <string name="KEYCODE_BACK">KEYCODE BACK</string>
+    <string name="KEYCODE_CALL">KEYCODE CALL</string>
+    <string name="KEYCODE_0">KEYCODE 0</string>
+    <string name="KEYCODE_1">KEYCODE 1</string>
+    <string name="KEYCODE_2">KEYCODE 2</string>
+    <string name="KEYCODE_3">KEYCODE 3</string>
+    <string name="KEYCODE_4">KEYCODE 4</string>
+    <string name="KEYCODE_5">KEYCODE 5</string>
+    <string name="KEYCODE_6">KEYCODE 6</string>
+    <string name="KEYCODE_7">KEYCODE 7</string>
+    <string name="KEYCODE_8">KEYCODE 8</string>
+    <string name="KEYCODE_9">KEYCODE 9</string>
+    <string name="KEYCODE_STAR">KEYCODE STAR</string>
+    <string name="KEYCODE_POUND">KEYCODE POUND</string>
+    <string name="KEYCODE_DPAD_UP">KEYCODE DPAD UP</string>
+    <string name="KEYCODE_DPAD_DOWN">KEYCODE DPAD DOWN</string>
+    <string name="KEYCODE_DPAD_LEFT">KEYCODE DPAD LEFT</string>
+    <string name="KEYCODE_DPAD_RIGHT">KEYCODE DPAD RIGHT</string>
+    <string name="KEYCODE_DPAD_CENTER">KEYCODE DPAD CENTER</string>
+    <string name="KEYCODE_VOLUME_UP">KEYCODE VOLUME UP</string>
+    <string name="KEYCODE_VOLUME_DOWN">KEYCODE VOLUME DOWN</string>
+    <string name="KEYCODE_POWER">KEYCODE POWER</string>
+    <string name="KEYCODE_CAMERA">KEYCODE CAMERA</string>
+    <string name="KEYCODE_A">KEYCODE A</string>
+    <string name="KEYCODE_B">KEYCODE B</string>
+    <string name="KEYCODE_C">KEYCODE C</string>
+    <string name="KEYCODE_D">KEYCODE D</string>
+    <string name="KEYCODE_E">KEYCODE E</string>
+    <string name="KEYCODE_F">KEYCODE F</string>
+    <string name="KEYCODE_G">KEYCODE G</string>
+    <string name="KEYCODE_H">KEYCODE H</string>
+    <string name="KEYCODE_I">KEYCODE I</string>
+    <string name="KEYCODE_J">KEYCODE J</string>
+    <string name="KEYCODE_K">KEYCODE K</string>
+    <string name="KEYCODE_L">KEYCODE L</string>
+    <string name="KEYCODE_M">KEYCODE M</string>
+    <string name="KEYCODE_N">KEYCODE N</string>
+    <string name="KEYCODE_O">KEYCODE O</string>
+    <string name="KEYCODE_P">KEYCODE P</string>
+    <string name="KEYCODE_Q">KEYCODE Q</string>
+    <string name="KEYCODE_R">KEYCODE R</string>
+    <string name="KEYCODE_S">KEYCODE S</string>
+    <string name="KEYCODE_T">KEYCODE T</string>
+    <string name="KEYCODE_U">KEYCODE U</string>
+    <string name="KEYCODE_V">KEYCODE V</string>
+    <string name="KEYCODE_W">KEYCODE W</string>
+    <string name="KEYCODE_X">KEYCODE X</string>
+    <string name="KEYCODE_Y">KEYCODE Y</string>
+    <string name="KEYCODE_Z">KEYCODE Z</string>
+    <string name="KEYCODE_COMMA">KEYCODE COMMA</string>
+    <string name="KEYCODE_PERIOD">KEYCODE PERIOD</string>
+    <string name="KEYCODE_ALT_LEFT">KEYCODE ALT LEFT</string>
+    <string name="KEYCODE_ALT_RIGHT">KEYCODE ALT RIGHT</string>
+    <string name="KEYCODE_SHIFT_LEFT">KEYCODE SHIFT LEFT</string>
+    <string name="KEYCODE_SHIFT_RIGHT">KEYCODE SHIFT RIGHT</string>
+    <string name="KEYCODE_TAB">KEYCODE TAB</string>
+    <string name="KEYCODE_SPACE">KEYCODE SPACE</string>
+    <string name="KEYCODE_EXPLORER">KEYCODE EXPLORER</string>
+    <string name="KEYCODE_ENTER">KEYCODE ENTER</string>
+    <string name="KEYCODE_DEL">KEYCODE DEL</string>
+    <string name="KEYCODE_GRAVE">KEYCODE GRAVE</string>
+    <string name="KEYCODE_MINUS">KEYCODE MINUS</string>
+    <string name="KEYCODE_EQUALS">KEYCODE EQUALS</string>
+    <string name="KEYCODE_LEFT_BRACKET">KEYCODE LEFT BRACKET</string>
+    <string name="KEYCODE_RIGHT_BRACKET">KEYCODE RIGHT BRACKET</string>
+    <string name="KEYCODE_BACKSLASH">KEYCODE BACKSLASH</string>
+    <string name="KEYCODE_SEMICOLON">KEYCODE SEMICOLON</string>
+    <string name="KEYCODE_APOSTROPHE">KEYCODE APOSTROPHE</string>
+    <string name="KEYCODE_SLASH">KEYCODE SLASH</string>
+    <string name="KEYCODE_AT">KEYCODE AT</string>
+    <string name="KEYCODE_FOCUS">KEYCODE FOCUS</string>
+    <string name="KEYCODE_PLUS">KEYCODE PLUS</string>
+    <string name="KEYCODE_MENU">KEYCODE MENU</string>
+    <string name="KEYCODE_SEARCH">KEYCODE SEARCH</string>
+    <string name="KEYCODE_MEDIA_PLAY_PAUSE">KEYCODE MEDIA PLAY PAUSE</string>
+    <string name="KEYCODE_MEDIA_STOP">KEYCODE MEDIA STOP</string>
+    <string name="KEYCODE_MEDIA_NEXT">KEYCODE MEDIA NEXT</string>
+    <string name="KEYCODE_MEDIA_PREVIOUS">KEYCODE MEDIA PREVIOUS</string>
+    <string name="KEYCODE_MEDIA_REWIND">KEYCODE MEDIA REWIND</string>
+    <string name="KEYCODE_MEDIA_FAST_FORWARD">KEYCODE MEDIA FAST FORWARD</string>
+    <string name="KEYCODE_MUTE">KEYCODE MUTE</string>
+    <string name="KEYCODE_CTRL_LEFT">KEYCODE CTRL LEFT</string>
+    <string name="KEYCODE_CTRL_RIGHT">KEYCODE CTRL RIGHT</string>
+    <string name="KEYCODE_INSERT">KEYCODE INSERT</string>
+    <string name="KEYCODE_PAUSE">KEYCODE PAUSE</string>
+    <string name="KEYCODE_PAGE_UP">KEYCODE PAGE UP</string>
+    <string name="KEYCODE_PAGE_DOWN">KEYCODE PAGE DOWN</string>
+    <string name="KEYCODE_PRINT_SCREEN">KEYCODE PRINT SCREEN</string>
+    <string name="KEYCODE_INFO">KEYCODE INFO</string>
+    <string name="KEYCODE_WINDOW">KEYCODE WINDOW</string>
+    <string name="KEYCODE_BOOKMARK">KEYCODE BOOKMARK</string>
+    <string name="KEYCODE_CAPS_LOCK">KEYCODE CAPS LOCK</string>
+    <string name="KEYCODE_ESCAPE">KEYCODE ESCAPE</string>
+    <string name="KEYCODE_META_LEFT">KEYCODE META LEFT</string>
+    <string name="KEYCODE_META_RIGHT">KEYCODE META RIGHT</string>
+    <string name="KEYCODE_ZOOM_IN">KEYCODE ZOOM IN</string>
+    <string name="KEYCODE_ZOOM_OUT">KEYCODE ZOOM OUT</string>
+    <string name="KEYCODE_CHANNEL_UP">KEYCODE CHANNEL UP</string>
+    <string name="KEYCODE_CHANNEL_DOWN">KEYCODE CHANNEL DOWN</string>
+    <string name="KEYCODE_LIVE">KEYCODE LIVE</string>
+    <string name="KEYCODE_DVR">KEYCODE DVR</string>
+    <string name="KEYCODE_GUIDE">KEYCODE GUIDE</string>
+    <string name="KEYCODE_MEDIA_SKIP_BACK">KEYCODE MEDIA SKIP BACK</string>
+    <string name="KEYCODE_MEDIA_SKIP_FORWARD">KEYCODE MEDIA SKIP FORWARD</string>
+    <string name="KEYCODE_MEDIA_RECORD">KEYCODE MEDIA RECORD</string>
+    <string name="KEYCODE_MEDIA_PLAY">KEYCODE MEDIA PLAY</string>
+    <string name="KEYCODE_PROG_RED">KEYCODE PROG RED</string>
+    <string name="KEYCODE_PROG_GREEN">KEYCODE PROG GREEN</string>
+    <string name="KEYCODE_PROG_YELLOW">KEYCODE PROG YELLOW</string>
+    <string name="KEYCODE_PROG_BLUE">KEYCODE PROG BLUE</string>
+    <string name="KEYCODE_BD_POWER">KEYCODE BD POWER</string>
+    <string name="KEYCODE_BD_INPUT">KEYCODE BD INPUT</string>
+    <string name="KEYCODE_STB_POWER">KEYCODE STB POWER</string>
+    <string name="KEYCODE_STB_INPUT">KEYCODE STB INPUT</string>
+    <string name="KEYCODE_STB_MENU">KEYCODE STB MENU</string>
+    <string name="KEYCODE_TV_POWER">KEYCODE TV POWER</string>
+    <string name="KEYCODE_TV_INPUT">KEYCODE TV INPUT</string>
+    <string name="KEYCODE_AVR_POWER">KEYCODE AVR POWER</string>
+    <string name="KEYCODE_AVR_INPUT">KEYCODE AVR INPUT</string>
+    <string name="KEYCODE_AUDIO">KEYCODE AUDIO</string>
+    <string name="KEYCODE_EJECT">KEYCODE EJECT</string>
+    <string name="KEYCODE_BD_POPUP_MENU">KEYCODE BD POPUP MENU</string>
+    <string name="KEYCODE_BD_TOP_MENU">KEYCODE BD TOP MENU</string>
+    <string name="KEYCODE_SETTINGS">KEYCODE SETTINGS</string>
+    <string name="KEYCODE_SETUP">KEYCODE SETUP</string>
+    <string name="KEYCODE_MICROPHONE_MUTE">KEYCODE MICROPHONE MUTE</string>
+    <string name="KEYCODE_PICTSYMBOLS">KEYCODE PICTSYMBOLS</string>
+    <string name="KEYCODE_SWITCH_CHARSET">KEYCODE SWITCH CHARSET</string>
+    <string name="KEYCODE_FORWARD_DEL">KEYCODE FORWARD DEL</string>
+    <string name="KEYCODE_SCROLL_LOCK">KEYCODE SCROLL LOCK</string>
+    <string name="KEYCODE_FUNCTION">KEYCODE FUNCTION</string>
+    <string name="KEYCODE_SYSRQ">KEYCODE SYSRQ</string>
+    <string name="KEYCODE_BREAK">KEYCODE BREAK</string>
+    <string name="KEYCODE_MOVE_HOME">KEYCODE MOVE HOME</string>
+    <string name="KEYCODE_MOVE_END">KEYCODE MOVE END</string>
+    <string name="KEYCODE_FORWARD">KEYCODE FORWARD</string>
+    <string name="KEYCODE_MEDIA_CLOSE">KEYCODE MEDIA CLOSE</string>
+    <string name="KEYCODE_F1">KEYCODE F1</string>
+    <string name="KEYCODE_F2">KEYCODE F2</string>
+    <string name="KEYCODE_F3">KEYCODE F3</string>
+    <string name="KEYCODE_F4">KEYCODE F4</string>
+    <string name="KEYCODE_F5">KEYCODE F5</string>
+    <string name="KEYCODE_F6">KEYCODE F6</string>
+    <string name="KEYCODE_F7">KEYCODE F7</string>
+    <string name="KEYCODE_F8">KEYCODE F8</string>
+    <string name="KEYCODE_F9">KEYCODE F9</string>
+    <string name="KEYCODE_F10">KEYCODE F10</string>
+    <string name="KEYCODE_F11">KEYCODE F11</string>
+    <string name="KEYCODE_F12">KEYCODE F12</string>
+    <string name="KEYCODE_NUM_LOCK">KEYCODE NUM LOCK</string>
+    <string name="KEYCODE_NUMPAD_0">KEYCODE NUMPAD 0</string>
+    <string name="KEYCODE_NUMPAD_1">KEYCODE NUMPAD 1</string>
+    <string name="KEYCODE_NUMPAD_2">KEYCODE NUMPAD 2</string>
+    <string name="KEYCODE_NUMPAD_3">KEYCODE NUMPAD 3</string>
+    <string name="KEYCODE_NUMPAD_4">KEYCODE NUMPAD 4</string>
+    <string name="KEYCODE_NUMPAD_5">KEYCODE NUMPAD 5</string>
+    <string name="KEYCODE_NUMPAD_6">KEYCODE NUMPAD 6</string>
+    <string name="KEYCODE_NUMPAD_7">KEYCODE NUMPAD 7</string>
+    <string name="KEYCODE_NUMPAD_8">KEYCODE NUMPAD 8</string>
+    <string name="KEYCODE_NUMPAD_9">KEYCODE NUMPAD 9</string>
+    <string name="KEYCODE_NUMPAD_DIVIDE">KEYCODE NUMPAD DIVIDE</string>
+    <string name="KEYCODE_NUMPAD_MULTIPLY">KEYCODE NUMPAD MULTIPLY</string>
+    <string name="KEYCODE_NUMPAD_SUBTRACT">KEYCODE NUMPAD SUBTRACT</string>
+    <string name="KEYCODE_NUMPAD_ADD">KEYCODE NUMPAD ADD</string>
+    <string name="KEYCODE_NUMPAD_DOT">KEYCODE NUMPAD DOT</string>
+    <string name="KEYCODE_NUMPAD_COMMA">KEYCODE NUMPAD COMMA</string>
+    <string name="KEYCODE_NUMPAD_ENTER">KEYCODE NUMPAD ENTER</string>
+    <string name="KEYCODE_NUMPAD_EQUALS">KEYCODE NUMPAD EQUALS</string>
+    <string name="KEYCODE_NUMPAD_LEFT_PAREN">KEYCODE NUMPAD LEFT PAREN</string>
+    <string name="KEYCODE_NUMPAD_RIGHT_PAREN">KEYCODE NUMPAD RIGHT PAREN</string>
+    <string name="KEYCODE_APP_SWITCH">KEYCODE APP SWITCH</string>
+    <string name="BTN_FIRST">BUTTON FIRST</string>
+    <string name="BTN_MISC">BUTTON MISC</string>
+    <string name="BTN_0">BUTTON 0</string>
+    <string name="BTN_1">BUTTON 1</string>
+    <string name="BTN_2">BUTTON 2</string>
+    <string name="BTN_3">BUTTON 3</string>
+    <string name="BTN_4">BUTTON 4</string>
+    <string name="BTN_5">BUTTON 5</string>
+    <string name="BTN_6">BUTTON 6</string>
+    <string name="BTN_7">BUTTON 7</string>
+    <string name="BTN_8">BUTTON 8</string>
+    <string name="BTN_9">BUTTON 9</string>
+    <string name="BTN_MOUSE">BUTTON MOUSE</string>
+    <string name="BTN_LEFT">BUTTON LEFT</string>
+    <string name="BTN_RIGHT">BUTTON RIGHT</string>
+    <string name="BTN_MIDDLE">BUTTON MIDDLE</string>
+    <string name="BTN_SIDE">BUTTON SIDE</string>
+    <string name="BTN_EXTRA">BUTTON EXTRA</string>
+    <string name="BTN_FORWARD">BUTTON FORWARD</string>
+    <string name="BTN_BACK">BUTTON BACK</string>
+    <string name="BTN_TASK">BUTTON TASK</string>
+    <string name="BTN_GAME_A">BUTTON GAME A</string>
+    <string name="BTN_GAME_B">BUTTON GAME B</string>
+    <string name="BTN_GAME_C">BUTTON GAME C</string>
+    <string name="BTN_GAME_X">BUTTON GAME X</string>
+    <string name="BTN_GAME_Y">BUTTON GAME Y</string>
+    <string name="BTN_GAME_Z">BUTTON GAME Z</string>
+    <string name="BTN_GAME_L1">BUTTON GAME L1</string>
+    <string name="BTN_GAME_R1">BUTTON GAME R1</string>
+    <string name="BTN_GAME_L2">BUTTON GAME L2</string>
+    <string name="BTN_GAME_R2">BUTTON GAME R2</string>
+    <string name="BTN_GAME_THUMBL">BUTTON GAME THUMBL</string>
+    <string name="BTN_GAME_THUMBR">BUTTON GAME THUMBR</string>
+    <string name="BTN_GAME_START">BUTTON GAME START</string>
+    <string name="BTN_GAME_SELECT">BUTTON GAME SELECT</string>
+    <string name="BTN_GAME_MODE">BUTTON GAME MODE</string>
+    <string name="BTN_GAME_1">BUTTON GAME 1</string>
+    <string name="BTN_GAME_2">BUTTON GAME 2</string>
+    <string name="BTN_GAME_3">BUTTON GAME 3</string>
+    <string name="BTN_GAME_4">BUTTON GAME 4</string>
+    <string name="BTN_GAME_5">BUTTON GAME 5</string>
+    <string name="BTN_GAME_6">BUTTON GAME 6</string>
+    <string name="BTN_GAME_7">BUTTON GAME 7</string>
+    <string name="BTN_GAME_8">BUTTON GAME 8</string>
+    <string name="BTN_GAME_9">BUTTON GAME 9</string>
+    <string name="BTN_GAME_10">BUTTON GAME 10</string>
+    <string name="BTN_GAME_11">BUTTON GAME 11</string>
+    <string name="BTN_GAME_12">BUTTON GAME 12</string>
+    <string name="BTN_GAME_13">BUTTON GAME 13</string>
+    <string name="BTN_GAME_14">BUTTON GAME 14</string>
+    <string name="BTN_GAME_15">BUTTON GAME 15</string>
+    <string name="BTN_GAME_16">BUTTON GAME 16</string>
+
+</resources>
