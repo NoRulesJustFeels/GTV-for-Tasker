@@ -1,11 +1,11 @@
 Anymote-for-Tasker
 ==================
 
-<p>The Anymote-for-Tasker implements a plugin for the popular <a href="https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm">Tasker</a> app.
+<p>Anymote-for-Tasker implements a plugin for the popular <a href="https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm">Tasker</a> app.
 Anymote-for-Tasker allows you to create tasks to control a <a href="https://developers.google.com/tv/">Google TV</a> device.
 Anymote-for-Tasker allows you to send key codes to Google TV devices like pressing the buttons on a physical remote control.</p>
 
-<p>The Anymote-for-Tasker plugin is available in the <a href="https://play.google.com/store/apps/details?id=com.entertailion.android.tasker">Google Play Store</a>.</p>
+<p>The Anymote-for-Tasker plugin is available in the <a href="https://play.google.com/store/apps/details?id=com.entertailion.android.tasker">Google Play Store</a> as a free app.</p>
 
 <p>The Anymote-for-Tasker can be used with the following apps:
 <ul>
