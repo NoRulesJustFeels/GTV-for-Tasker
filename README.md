@@ -2,8 +2,7 @@ GTV-for-Tasker
 ==================
 
 <p>GTV-for-Tasker implements a plugin for the popular <a href="https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm">Tasker</a> app.
-GTV-for-Tasker allows you to create tasks to control a <a href="https://developers.google.com/tv/">Google TV</a> device.
-GTV-for-Tasker allows you to send key codes to Google TV devices like pressing the buttons on a physical remote control.</p>
+GTV-for-Tasker allows you to send key codes to <a href="https://developers.google.com/tv/">Google TV</a> devices like pressing the buttons on a physical remote control.</p>
 
 <p>The GTV-for-Tasker plugin is available in the <a href="https://play.google.com/store/apps/details?id=com.entertailion.android.tasker">Google Play Store</a> as a free app.</p>
 
