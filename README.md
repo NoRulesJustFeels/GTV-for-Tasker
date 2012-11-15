@@ -57,6 +57,23 @@ It will require some experimentation to determine what the exact values need to 
 </ul>
 </p>
 
+<p>Example <a href="https://code.google.com/p/anymote-protocol/source/browse/proto/keycodes.proto">key codes</a>:
+<ul>
+<li>KEYCODE HOME: Toggle the display of the GTV home screen</li>
+<li>KEYCODE LIVE: Display live TV</li>
+<li>KEYCODE DPAD LEFT: Navigate left</li>
+<li>KEYCODE DPAD RIGHT: Navigate right</li>
+<li>KEYCODE DPAD UP: Navigate up</li>
+<li>KEYCODE DPAD DOWN: Navigate down</li>
+<li>KEYCODE DPAD CENTER: Select or OK</li>
+<li>KEYCODE TV POWER: Toggle the power of your TV</li>
+</ul>
+</p>
+
+<p>Send text data:
+Use the Data type to send text data to GTV. One possible use would be to do a search. Send a KEYCODE SEARCH and then send the text data as the search term.
+</p>
+
 <p>Load web sites:
 <ul>
 <li>The full URL needs to be specified. The URL needs to start with 'http://' or 'https://'.</li>
