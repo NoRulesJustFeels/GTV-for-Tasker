@@ -13,6 +13,8 @@
 
 package com.entertailion.android.tasker.receiver;
 
+import java.util.HashMap;
+
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
@@ -76,13 +78,43 @@ public final class FireReceiver extends BroadcastReceiver
         	String value = bundle.getString(PluginBundleManager.BUNDLE_EXTRA_STRING_MESSAGE);
         	if (value!=null) {
 	            //Toast.makeText(context, value, Toast.LENGTH_LONG).show();
-	            final String[] values = value.split("\\n");
-	            if (values.length==2) {
-	            	// Bind to the AnymoteService
+        		Log.d(LOG_TAG, "value="+value);
+        		HashMap<String, String> map = AnymoteService.parseData(context, value);
+        		if (map!=null) {
+        			String device = map.get(AnymoteService.ANYMOTE_DEVICE);
+        			String type = map.get(AnymoteService.ANYMOTE_TYPE);
+    	    		String keycode = map.get(AnymoteService.ANYMOTE_KEYCODE);
+    	    		String uri = map.get(AnymoteService.ANYMOTE_URI);
+    	    		String data = map.get(AnymoteService.ANYMOTE_DATA);
+    	    		String appPackage = map.get(AnymoteService.ANYMOTE_APP_PACKAGE);
+    	    		String appActivity = map.get(AnymoteService.ANYMOTE_APP_ACTIVITY);
+    	    		Log.d(LOG_TAG, "device="+device);
+    	    		Log.d(LOG_TAG, "type="+type);
+    	    		Log.d(LOG_TAG, "keycode="+keycode);
+    	    		Log.d(LOG_TAG, "uri="+uri);
+    	    		Log.d(LOG_TAG, "data="+data);
+    	    		Log.d(LOG_TAG, "appPackage="+appPackage);
+    	    		Log.d(LOG_TAG, "appActivity="+appActivity);
+	            	// Send to the AnymoteService
 	                Intent serviceIntent = new Intent(context, AnymoteService.class);
 	                serviceIntent.setAction(AnymoteService.ANYMOTE_INOKE);
-	                serviceIntent.putExtra(AnymoteService.ANYMOTE_DEVICE, values[0]);
-	                serviceIntent.putExtra(AnymoteService.ANYMOTE_KEYCODE, values[1]);
+	                serviceIntent.putExtra(AnymoteService.ANYMOTE_DEVICE, device);
+	                serviceIntent.putExtra(AnymoteService.ANYMOTE_KEYCODE, keycode);
+	                if (type!=null) {
+	                	serviceIntent.putExtra(AnymoteService.ANYMOTE_TYPE, type);
+        			}
+	                if (uri!=null) {
+	                	serviceIntent.putExtra(AnymoteService.ANYMOTE_URI, uri);
+        			}
+	                if (data!=null) {
+	                	serviceIntent.putExtra(AnymoteService.ANYMOTE_DATA, data);
+        			}
+	                if (appPackage!=null) {
+	                	serviceIntent.putExtra(AnymoteService.ANYMOTE_APP_PACKAGE, appPackage);
+        			}
+	                if (appActivity!=null) {
+	                	serviceIntent.putExtra(AnymoteService.ANYMOTE_APP_ACTIVITY, appActivity);
+        			}
 	                context.startService(serviceIntent);
 	            }
         	}

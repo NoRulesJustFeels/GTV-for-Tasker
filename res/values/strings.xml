@@ -23,7 +23,15 @@
     <!-- UI names -->
     <string name="field_device">Google TV Device</string>
     <string name="field_keycode">Keycode</string>
+    <string name="field_keycode_select">Select Keycode&#8230;</string>
     <string name="field_device_select">Select Google TV Device&#8230;</string>
+    <string name="field_url">URL</string>
+    <string name="field_data">Data</string>
+    <string name="field_app">App</string>
+    <string name="field_app_package">Package</string>
+    <string name="field_app_activity">Activity</string>
+    <string name="field_type">Type</string>
+    <string name="field_type_select">Select Type&#8230;</string>
 
     <!-- Manifest labels -->
     <string name="finder_label">Connect to Google TV</string>
