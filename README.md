@@ -103,7 +103,7 @@ Here are the package/activity pairs for popular GTV apps (Note these values are 
 <li>Twitter: "com.twitter.android.tv/com.twitter.android.LoginActivity"</li>
 <li>Pandora: "com.pandora.android.gtv/com.pandora.android.Main"</li>
 </ul>
-You install the <a href="https://play.google.com/store/apps/details?id=com.entertailion.android.gtvtasker">GTV Tasker Apps</a> app on your Google TV device to get the package and activity names of the apps installed.
+You can install the <a href="https://play.google.com/store/apps/details?id=com.entertailion.android.gtvtasker">GTV Tasker Apps</a> app on your Google TV device to get the package and activity names of the apps installed.
 </p>
 
 <p>Developers:
