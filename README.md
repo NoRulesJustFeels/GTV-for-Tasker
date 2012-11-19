@@ -92,7 +92,8 @@ There are some issues to be aware of:
 <li>The developers of each app can change the app main launcher activity in future updates. The Tasker action would then have the incorrect data and won't launch the app anymore.</li>
 <li>The 'same' app doesn't have the same package information on different Google TV devices. For example, the Settings app on the Vizio Co-Start is different from the Settings apps on other GTV devices.</li>
 <li>Their are apps that are only available on particular GTV devices. For example, the media players/DLNA players on the various GTV devices are unique to those devices.</li>
-<li>The only reliable way to launch an app is to determine at run-time what the package information is on each GTV device (that is how <a href="http://ableremote.com">Able Remote</a> works). But then you would need an app running on GTV to determine that information.</li>
+<li>The only reliable way to launch an app is to determine at run-time what the package information is on each GTV device (that is how <a href="http://ableremote.com">Able Remote</a> works). 
+But then you would need an app running on GTV to determine that information.</li>
 </ul>
 Here are the package/activity pairs for popular GTV apps (Note these values are case-sensitive):
 <ul>
@@ -102,6 +103,7 @@ Here are the package/activity pairs for popular GTV apps (Note these values are 
 <li>Twitter: "com.twitter.android.tv/com.twitter.android.LoginActivity"</li>
 <li>Pandora: "com.pandora.android.gtv/com.pandora.android.Main"</li>
 </ul>
+You install the <a href="https://play.google.com/store/apps/details?id=com.entertailion.android.gtvtasker">GTV Tasker Apps</a> app on your Google TV device to get the package and activity names of the apps installed.
 </p>
 
 <p>Developers:
@@ -118,6 +120,7 @@ Extract the zip file and import the 'locale-api' project into Eclipse which will
 <p>References:
 <ul>
 <li><a href="http://tasker.dinglisch.net/plugins.html">Developing Tasker plugins</a></li>
+<li><a href="https://github.com/entertailion/GTV-Tasker-Apps">GTV Tasker Apps code</a></li>
 <li><a href="https://developers.google.com/tv/remote/docs/anymote">Anymote Protocol</a></li>
 <li><a href="https://developers.google.com/tv/remote/docs/developing">Building Second-screen Applications for Google TV</a></li>
 <li>The <a href="https://github.com/entertailion/Android-Anymote">Android-Anymote</a> app provides an Android user interface for the <a href="https://github.com/entertailion/Anymote-for-Java">Anymote-for-Java</a> library.</li>
